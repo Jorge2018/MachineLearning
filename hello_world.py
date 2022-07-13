@@ -29,6 +29,7 @@ for x in range(5,1,-3):
 
 
 
+
 mi_list=['abc',123,'hik']
 
 for i in range(0,len(mi_list)):
