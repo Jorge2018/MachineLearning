@@ -27,6 +27,7 @@ for x in range(0,10,2):
 for x in range(5,1,-3):
     print(x)
 
+#test python 3
 
 
 mi_list=['abc',123,'hik']
