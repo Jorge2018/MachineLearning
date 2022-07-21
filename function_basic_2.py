@@ -54,6 +54,7 @@
 #        valor += lista[indice]
 #        indice += 1
 #    print(valor)
+
 #suma_total([1,2,-3,5,15])
 
 #def suma_total_for(lista):
@@ -176,8 +177,34 @@
 
 #print(reversa_for([1,2,3,4,5,6,7,8,9,10,-3]))
 
+# Ejercicio propuesto 1
+#print("Ingresa Entero Postivo")
+#numero=input()
+#numero=int(numero)
+#if numero > 0:
+#    dato=(numero*(numero+1)/2)
+#else:
+#    print('Error')
+#    exit()
+#print(dato)
 
-
+# Ejercicio propuesto 2
+peso_pay=112
+peso_mun=75
+pesos=(112,75)
+lista=[]
+print("Ingresa cantidad Payasos:")
+num_pay= input()
+num_pay=int(num_pay)
+total_pay=peso_pay*pesos[0]
+print("Ingresa cantidad Muñecos:")
+num_mun= input()
+num_mun=int(num_mun)
+total_mun=peso_mun*pesos[1]
+lista.append(total_pay+total_mun)
+print("El peso por cant de Payasos es:",total_pay)
+print("El peso por cant de Muñecos es:",total_mun)
+print("El peso total:",lista)
 
 
 
