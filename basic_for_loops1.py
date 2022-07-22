@@ -20,15 +20,15 @@
 
 
 ###########  contar estilo dojo
-#for a in range (1,101,1):    
-#    var_5=(str(a).endswith("5"))
-#    var_10=(str(a).endswith("0"))
-#    if a % 5 == 0 and var_5==True:
-#        print('Coding', a)
-#    elif a % 10 == 0 and var_10==True:
-#        print('Coding Dojo', a)
-#    else:
-#        print(a)
+for a in range (1,101,1):    
+    var_5=(str(a).endswith("5"))
+    var_10=(str(a).endswith("0"))
+    if a % 5 == 0 and var_5==True:
+        print('Coding', a)
+    elif a % 10 == 0 and var_10==True:
+        print('Coding Dojo', a)
+    else:
+        print(a)
 ###########  contar con estilo dojo while
 #a=1
 #while a <= 100:
@@ -76,15 +76,15 @@
     #test pm
 
 ###########  Contador Flexible
-lowNum=2
-highNum=9
-mult=3
+#lowNum=2
+#highNum=9
+#mult=3
 #for a in range(lowNum,highNum + 1):
 #    if a % mult==0:
 #        lowNum +=1
 #        print(a)
 ###########  Contador Flexible while
-while lowNum <= highNum:
-    if lowNum % mult==0:
-        print(lowNum)
-    lowNum +=1
+#while lowNum <= highNum:
+#    if lowNum % mult==0:
+#        print(lowNum)
+#    lowNum +=1
